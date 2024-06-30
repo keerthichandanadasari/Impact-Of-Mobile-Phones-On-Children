@@ -1,0 +1,87 @@
+<body background="back3.avif">
+
+<h1 style="font-size:40px;text-align:center;color:red;">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+
+<div style="text-align:center;margin-top:40px;">
+<img src="logo.jpg"></div>
+<div style="text-align:center;margin-top:40px;">
+<a style="padding-right:20px;"href="home.html">Home</a>
+
+<a style="padding-right:20px;"href="abstract.html">Abstract</a>
+<a style="padding-right:20px;"href="introduction.html">Introduction</a>
+<a style="padding-right:20px;"href="impacts.html">Impacts</a>
+<a style="padding-right:20px;"href="questionnaire.html">questionnaire</a>
+<a style="padding-right:20px;"href="graph details.html">Graph Details</a>
+<a style="padding-right:20px;"href="conclusion.html">Conclusion</a>
+</div>
+<h1 style="font-size:30px;text-align:center;color:green;">IMPACT OF MOBILE PHONES ON CHILDREN</h1>
+
+
+<h1 style="font-size:40px;text-align:center;color:blue;">GRAPH DETAILS</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'count for what purpose do children use mobile phones'],
+          ['Education',    15 ],
+          ['Reels',      17],
+          ['Movies',  7],
+          ['Games', 8],
+        ]);
+
+        var options = {
+          title: 'FOR WHAT PURPOSE DO CHILDREN USE MOBILE PHONES '
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+ <body>
+<center>
+    <div id="piechart" style="width: center; height: 500px;border:3px solid black;width:50%;"></div>
+  </center>
+</body>
+<br>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Impacts', 'Count'],
+          ['Disrupted sleep',     2],
+          ['Eye strain',   10   ],
+          ['Increased risk of radiation',  2],
+          ['Reduced creativity', 2],
+          ['Lower academic performance',    15],
+          ['Decreased Focus', 4],
+          ['cyberbullying', 2],
+          ['Accidents', 7],
+          ['Bad posture',4 ],
+        ]);
+
+        var options = {
+          title: 'IMPACTS OF MOBILE PHONES ON CHILDREN',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+ <body>
+<center>
+    <div id="piechart_3d" style="width: center; height: 500px;border:3px solid black;width:50%"></div>
+  </center>
+</body>
+<br>
+<br>
+<div style="text-align:center;"><a style="font-size:20px;background-color:red;padding:15px 35px 15px 35px;color:white;"href="C:\Users\KEERTHI CHANDANA .D\Desktop\Impact_of_mobile_phones_on_children_word 2.docx">KNOW MORE</a></div>
+
+</body>
